@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_PCFlight'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_PCFlight'
+  }
+}
+define service ZUI_PCFLIGHT_O4 provider contracts odata_v4_ui {
+  expose ZC_PCFLIGHT as Vuelo;
+}

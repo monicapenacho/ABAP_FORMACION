@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZC_PCFlight'
+@MappingRole: true
+define role ZC_PCFlight {
+  grant select on ZC_PCFlight
+  where INHERITING CONDITIONS FROM ENTITY ZR_PC_Flight REPLACING { ROOT WITH _BaseEntity };
+}
